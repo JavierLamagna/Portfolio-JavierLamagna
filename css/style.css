@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header */
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: aqua;
+    color: black;
+    padding: 20px;
+    margin: auto;
+}
+
+/* Presentacion */
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#acerca-de-mi p {
+    margin: 0 50px;
+    font-size: 20px;
+}
+
+/* Habilidades */
+
+#habilidades h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.skins-habilidades {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.desarrollo ul{
+    list-style: none;
+    font-size: 20px;
+}
+
+.desarrollo h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testing ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+.testing h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Proyectos */
+
+#proyectos h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+#proyectos ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 20px;
+}
+
+/* Contacto */

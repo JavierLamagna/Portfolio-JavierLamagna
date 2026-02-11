@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Javier Lamagna - Desarrollador Web y Tester QA Manual. Portfolio con proyectos, habilidades y datos de contacto.">
+    <meta name="description"
+        content="Javier Lamagna - Desarrollador Web y Tester QA Manual. Portfolio con proyectos, habilidades y datos de contacto.">
     <title>Javier Lamagna | Desarrollador Web &amp; QA Manual</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <header>
-        <nav aria-label="Navegación principal">
+        <nav class="navbar" aria-label="Navegación principal">
             <ul>
                 <li><a href="#acerca-de-mi">Acerca de mí</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
@@ -20,9 +22,11 @@
         </nav>
     </header>
     <section id="acerca-de-mi" aria-labelledby="titulo-presentacion">
-        <img src="" alt="Foto de perfil de Javier Lamagna" width="200" height="200">
-        <h1 id="titulo-presentacion">Hola soy Javier Lamagna</h1>
-        <span>Desarrollador Web/Tester QA Manual</span>
+        <div class="info">
+            <img src="" alt="Foto de perfil de Javier Lamagna" width="200" height="200">
+            <h1 id="titulo-presentacion">Hola soy Javier Lamagna</h1>
+            <span>Desarrollador Web/Tester QA Manual</span>
+        </div>
         <p>Soy desarrollador web con 29 años, orientado a construir productos digitales funcionales, escalables y
             centrados en el usuario. Me especializo en desarrollo front-end y cuento con conocimientos en QA Manual, lo
             que me permite participar activamente en todo el ciclo de vida del producto, desde la implementación hasta
@@ -38,27 +42,35 @@
             Busco sumarme a equipos dinámicos donde la tecnología sea un motor de crecimiento, aportando valor desde lo
             técnico, la calidad y el pensamiento estratégico.</p>
     </section>
+
     <main>
         <section id="habilidades">
             <h2>Habilidades</h2>
-            <h3>Desarrollo Web</h3>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>GitHub</li>
-                <li>Bootstrap</li>
-            </ul>
-            <h3>QA Manual</h3>
-            <ul>
-                <li>Test Planning</li>
-                <li>Test Execution</li>
-                <li>Test Reporting</li>
-                <li>Test Documentation</li>
-                <li>Test Automation</li>
-            </ul>
+            <div class="skins-habilidades">
+                <div class="desarrollo">
+                    <h3>Desarrollo Web</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>GitHub</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="testing">
+                    <h3>QA Manual</h3>
+                    <ul>
+                        <li>Test Planning</li>
+                        <li>Test Execution</li>
+                        <li>Test Reporting</li>
+                        <li>Test Documentation</li>
+                        <li>Test Automation</li>
+                    </ul>
+                </div>
+            </div>
         </section>
+
         <section id="proyectos">
             <h2>Proyectos</h2>
             <ul>
@@ -73,7 +85,8 @@
                 <ul>
                     <li>Email: <a href="mailto:javierlamagna@gmail.com">javierlamagna@gmail.com</a></li>
                     <li>Teléfono: <a href="tel:+542634347076">2634347076</a></li>
-                    <li>LinkedIn: <a href="https://www.linkedin.com/in/javierlamagna/" target="_blank" rel="noopener noreferrer">Javier Lamagna</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/javierlamagna/" target="_blank"
+                            rel="noopener noreferrer">Javier Lamagna</a></li>
                 </ul>
             </address>
             <h2>Formulario de Contacto</h2>
@@ -88,7 +101,8 @@
                 </p>
                 <p>
                     <label for="mensaje">Mensaje</label>
-                    <textarea id="mensaje" name="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje..." maxlength="2000"></textarea>
+                    <textarea id="mensaje" name="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje..."
+                        maxlength="2000"></textarea>
                 </p>
                 <button type="submit">Enviar</button>
             </form>
