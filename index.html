@@ -15,10 +15,26 @@
     <header>
         <nav class="navbar" aria-label="Navegación principal">
             <ul>
-                <li><a href="#acerca-de-mi" class="link-navbar">Acerca de mí</a></li>
-                <li><a href="#habilidades" class="link-navbar">Habilidades</a></li>
-                <li><a href="#proyectos" class="link-navbar">Proyectos</a></li>
-                <li><a href="#contacto" class="link-navbar">Contactos</a></li>
+                <li>
+                    <button class="btn-nav" id="btn-acerca-de-mi">
+                        <a href="#acerca-de-mi" class="link-navbar">Acerca de mí</a>
+                    </button>
+                </li>
+                <li>
+                    <button class="btn-nav" id="btn-habilidades">
+                        <a href="#habilidades" class="link-navbar">Habilidades</a>
+                    </button>
+                </li>
+                <li>
+                    <button class="btn-nav" id="btn-proyectos">
+                        <a href="#proyectos" class="link-navbar">Proyectos</a>
+                    </button>
+                </li>
+                <li>
+                    <button class="btn-nav" id="btn-contacto">
+                        <a href="#contacto" class="link-navbar">Contactos</a>
+                    </button>
+                </li>
             </ul>
         </nav>
     </header>
@@ -83,10 +99,10 @@
         <section id="contacto">
             <h2>Contactos</h2>
             <ul>
-                <li>Email: javierlamagna@gmail.com</a></li>
-                <li>Teléfono: 2634347076</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/javierlamagna/" target="_blank"
-                        rel="noopener noreferrer">Javier Lamagna</a></li>
+                <li>javierlamagna@gmail.com</li>
+                <li>2634347076</li>
+                <li>LinkedIn<a href="https://www.linkedin.com/in/javierlamagna/" target="_blank"
+                        rel="noopener noreferrer"></a></li>
             </ul>
         </section>
     </main>
@@ -96,6 +112,8 @@
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
+    <script src="js/main.js"></script>
+    <script src="js/skills.js"></script>
 </body>
 
 </html>
