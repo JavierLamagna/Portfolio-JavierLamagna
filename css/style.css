@@ -1,10 +1,86 @@
+/* HABILIDADES */
+#habilidades h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-shadow: 0 1px 0 #999, 0 2px 0 #888, 0 3px 0 #777, 0 4px 0 #666, 0 5px 5px rgba(0, 0, 0, 0.4);
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
+}
+#habilidades .skins-habilidades {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#habilidades .skins-habilidades .desarrollo h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-shadow: 0 1px 0 #999, 0 2px 0 #888, 0 3px 0 #777, 0 4px 0 #666, 0 5px 5px rgba(0, 0, 0, 0.4);
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
+}
+#habilidades .skins-habilidades .desarrollo ul {
+  list-style: none;
+  font-size: 20px;
+}
+#habilidades .skins-habilidades .testing h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-shadow: 0 1px 0 #999, 0 2px 0 #888, 0 3px 0 #777, 0 4px 0 #666, 0 5px 5px rgba(0, 0, 0, 0.4);
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
+}
+#habilidades .skins-habilidades .testing ul {
+  list-style: none;
+  font-size: 20px;
+}
+
+#proyectos h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-shadow: 0 1px 0 #999, 0 2px 0 #888, 0 3px 0 #777, 0 4px 0 #666, 0 5px 5px rgba(0, 0, 0, 0.4);
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
+}
+#proyectos ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 20px;
+}
+
+#contacto h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-shadow: 0 1px 0 #999, 0 2px 0 #888, 0 3px 0 #777, 0 4px 0 #666, 0 5px 5px rgba(0, 0, 0, 0.4);
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
+}
+#contacto ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 20px;
+}
+#contacto ul li a {
+  text-decoration: none;
+  color: #EADFF0;
+}
+#contacto ul li a:hover {
+  text-decoration: none;
+}
+
 body {
   padding: 0;
   margin: 0;
   min-height: 100vh;
   background: linear-gradient(to bottom, #000000 0%, #000000 30%, #111018 45%, #2a2143 65%, #4b3b8f 85%, #5a49c7 100%);
   background-attachment: fixed;
-  color: #f8f8f8;
+  color: #EADFF0;
   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -14,12 +90,6 @@ body {
 
 html {
   scroll-behavior: smooth;
-}
-
-h1, h2, h3 {
-  font-size: 50px;
-  text-shadow: 0 1px 0 #999, 0 2px 0 #888, 0 3px 0 #777, 0 4px 0 #666, 0 5px 5px rgba(0, 0, 0, 0.4);
-  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
 }
 
 /* HEADER */
@@ -42,7 +112,7 @@ nav ul li .btn-nav {
 }
 nav ul li .btn-nav:hover {
   background-color: #522566;
-  color: #fff;
+  color: #EADFF0;
   transform: translateY(-3px);
   box-shadow: 0 10px 25px #522566;
 }
@@ -64,7 +134,7 @@ nav ul li .btn-nav .link-navbar {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 2px solid #fff;
+  border: 2px solid #EADFF0;
 }
 #acerca-de-mi .info h1 {
   font-size: 50px;

@@ -4,13 +4,8 @@
         justify-content: center;
         align-items: center;
         font-size: 40px; 
-        text-shadow:
-        0 1px 0 #999,
-        0 2px 0 #888,
-        0 3px 0 #777,
-        0 4px 0 #666,
-        0 5px 5px rgba(0,0,0,0.4);
-        filter: drop-shadow(0 4px 10px rgba(0,0,0,0.4));  
+        text-shadow: $text-shadow-repeat;
+        filter: $drop-shadow-principal;  
     }
 
     ul {

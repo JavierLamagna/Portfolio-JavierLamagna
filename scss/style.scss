@@ -1,3 +1,9 @@
+@use "variables" as *;
+@use "skills";
+@use "projects";
+@use "contacts";
+
+
 body {
     padding: 0;
     margin: 0;
@@ -12,27 +18,16 @@ body {
       #5a49c7 100%
     );
     background-attachment: fixed;
-    color: #f8f8f8;
+    color: $terciario-color;
     font-family: 'Poppins', sans-serif;      
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    filter: drop-shadow(0 4px 10px #7A3A8E); 
+    filter: drop-shadow(0 4px 10px $principal-color); 
 }
 
 html {
     scroll-behavior: smooth;
-}
-
-h1,h2,h3 {
-    font-size: 50px;
-    text-shadow:
-    0 1px 0 #999,
-    0 2px 0 #888,
-    0 3px 0 #777,
-    0 4px 0 #666,
-    0 5px 5px rgba(0,0,0,0.4);
-    filter: drop-shadow(0 4px 10px rgba(0,0,0,0.4));    
 }
 
 /* HEADER */
@@ -52,24 +47,24 @@ nav {
                 border-radius: 30px;
               
                 background: rgba(0, 0, 0, 0.55);
-                border: 2px solid #7A3A8E;
+                border: 2px solid $principal-color;
               
                 backdrop-filter: blur(4px);
                 transition: all 0.3s ease;
                 display: inline-block;
 
                 &:hover {
-                    background-color: #522566;
-                    color: #fff;
+                    background-color: $secundario-color;
+                    color: $terciario-color;
                     transform: translateY(-3px);
-                    box-shadow: 0 10px 25px #522566;
+                    box-shadow: 0 10px 25px $secundario-color;
                 }
 
                 .link-navbar {
                     text-decoration: none;
                     font-family: 'Poppins', sans-serif;
                     font-size: 15px;
-                    color: #EADFF0;
+                    color: $terciario-color;
                 }
             }
         } 
@@ -89,18 +84,13 @@ nav {
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            border: 2px solid #fff;
+            border: 2px solid $terciario-color;
         }
 
         h1 {
             font-size: 50px;
-            text-shadow:
-            0 1px 0 #999,
-            0 2px 0 #888,
-            0 3px 0 #777,
-            0 4px 0 #666,
-            0 5px 5px rgba(0,0,0,0.4);
-            filter: drop-shadow(0 4px 10px rgba(0,0,0,0.4));
+            text-shadow: $text-shadow-repeat;
+            filter: $drop-shadow-principal;
         }
     } 
     
