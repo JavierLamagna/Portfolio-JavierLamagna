@@ -1,0 +1,28 @@
+#contacto {
+    h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        text-shadow: $text-shadow-repeat;
+        filter: $drop-shadow-principal; 
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        font-size: 20px;
+        
+        li {
+            a{
+                text-decoration: none;
+                color: $terciario-color;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

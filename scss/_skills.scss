@@ -1,0 +1,50 @@
+/* HABILIDADES */
+
+#habilidades {
+    h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        text-shadow: $text-shadow-repeat;
+        filter: $drop-shadow-principal;
+    }
+
+    .skills-habilidades {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .desarrollo {
+            h3 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px; 
+                text-shadow: $text-shadow-repeat;
+                filter: $drop-shadow-principal; 
+            }
+
+            ul {
+                list-style: none;
+                font-size: 20px; 
+            }
+        }
+
+        .testing {
+            h3 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px; 
+                text-shadow: $text-shadow-repeat;
+                filter: $drop-shadow-principal;   
+            }
+
+            ul {
+                list-style: none;
+                font-size: 20px; 
+            }
+        }
+    }
+}

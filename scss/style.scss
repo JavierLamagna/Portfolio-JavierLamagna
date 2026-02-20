@@ -1,0 +1,109 @@
+@use "variables" as *;
+@use "skills";
+@use "projects";
+@use "contacts";
+
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(
+      to bottom,
+      #000000 0%,
+      #000000 30%,
+      #111018 45%,
+      #2a2143 65%,
+      #4b3b8f 85%,
+      #5a49c7 100%
+    );
+    background-attachment: fixed;
+    color: $terciario-color;
+    font-family: 'Poppins', sans-serif;      
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    filter: drop-shadow(0 4px 10px $principal-color); 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+
+.navbar {
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        padding: 20px;
+        margin: auto;
+
+        li {
+            .btn-nav {
+                padding: 12px 24px;
+                border-radius: 30px;
+                font-family: 'Poppins', sans-serif;
+                color:$terciario-color;
+              
+                background: rgba(0, 0, 0, 0.55);
+                border: 2px solid $principal-color;
+              
+                backdrop-filter: blur(4px);
+                transition: all 0.3s ease;
+                display: inline-block;
+
+                &:hover {
+                    background-color: $secundario-color;
+                    color: $terciario-color;
+                    transform: translateY(-3px);
+                    box-shadow: 0 10px 25px $secundario-color;
+                }
+            }
+        } 
+    }
+}
+
+/* PRESENTACION */
+
+#acerca-de-mi {
+    .info {
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+        margin: 20px;
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid $terciario-color;
+        }
+
+        h1 {
+            font-size: 50px;
+            text-shadow: $text-shadow-repeat;
+            filter: $drop-shadow-principal;
+        }
+    } 
+
+
+
+    p {
+        margin: 0 50px;
+        font-size: 20px;
+    }
+        
+}
+
+/* FOOTER */
+
+footer {
+    color: wheat;
+    padding: 10px;
+    text-align: center;
+}
+
+  
