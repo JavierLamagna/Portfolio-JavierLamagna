@@ -32,7 +32,7 @@ html {
 
 /* HEADER */
 
-nav {
+.navbar {
     ul {
         display: flex;
         justify-content: space-around;
@@ -45,6 +45,8 @@ nav {
             .btn-nav {
                 padding: 12px 24px;
                 border-radius: 30px;
+                font-family: 'Poppins', sans-serif;
+                color:$terciario-color;
               
                 background: rgba(0, 0, 0, 0.55);
                 border: 2px solid $principal-color;
@@ -58,13 +60,6 @@ nav {
                     color: $terciario-color;
                     transform: translateY(-3px);
                     box-shadow: 0 10px 25px $secundario-color;
-                }
-
-                .link-navbar {
-                    text-decoration: none;
-                    font-family: 'Poppins', sans-serif;
-                    font-size: 15px;
-                    color: $terciario-color;
                 }
             }
         } 
@@ -93,11 +88,14 @@ nav {
             filter: $drop-shadow-principal;
         }
     } 
-    
+
+
+
     p {
         margin: 0 50px;
         font-size: 20px;
     }
+        
 }
 
 /* FOOTER */
@@ -107,3 +105,5 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+  

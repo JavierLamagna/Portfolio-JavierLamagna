@@ -7,12 +7,12 @@
   text-shadow: 0 1px 0 #999, 0 2px 0 #888, 0 3px 0 #777, 0 4px 0 #666, 0 5px 5px rgba(0, 0, 0, 0.4);
   filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
 }
-#habilidades .skins-habilidades {
+#habilidades .skills-habilidades {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-#habilidades .skins-habilidades .desarrollo h3 {
+#habilidades .skills-habilidades .desarrollo h3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,11 +20,11 @@
   text-shadow: 0 1px 0 #999, 0 2px 0 #888, 0 3px 0 #777, 0 4px 0 #666, 0 5px 5px rgba(0, 0, 0, 0.4);
   filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
 }
-#habilidades .skins-habilidades .desarrollo ul {
+#habilidades .skills-habilidades .desarrollo ul {
   list-style: none;
   font-size: 20px;
 }
-#habilidades .skins-habilidades .testing h3 {
+#habilidades .skills-habilidades .testing h3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +32,7 @@
   text-shadow: 0 1px 0 #999, 0 2px 0 #888, 0 3px 0 #777, 0 4px 0 #666, 0 5px 5px rgba(0, 0, 0, 0.4);
   filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
 }
-#habilidades .skins-habilidades .testing ul {
+#habilidades .skills-habilidades .testing ul {
   list-style: none;
   font-size: 20px;
 }
@@ -116,7 +116,7 @@ nav ul li .btn-nav:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 25px #522566;
 }
-nav ul li .btn-nav .link-navbar {
+nav ul li .btn-nav {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-size: 15px;

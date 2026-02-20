@@ -8,112 +8,29 @@
         content="Javier Lamagna - Desarrollador Web y Tester QA Manual. Portfolio con proyectos, habilidades y datos de contacto.">
     <title>Javier Lamagna | Desarrollador Web &amp; QA Manual</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar" aria-label="Navegación principal">
+        <nav class="navbar">
             <ul>
-                <li>
-                    <button class="btn-nav" id="btn-acerca-de-mi">
-                        <a href="#acerca-de-mi" class="link-navbar">Acerca de mí</a>
-                    </button>
-                </li>
-                <li>
-                    <button class="btn-nav" id="btn-habilidades">
-                        <a href="#habilidades" class="link-navbar">Habilidades</a>
-                    </button>
-                </li>
-                <li>
-                    <button class="btn-nav" id="btn-proyectos">
-                        <a href="#proyectos" class="link-navbar">Proyectos</a>
-                    </button>
-                </li>
-                <li>
-                    <button class="btn-nav" id="btn-contacto">
-                        <a href="#contacto" class="link-navbar">Contactos</a>
-                    </button>
-                </li>
+                <li><button type="button" class="btn-nav" data-link="#acerca">Acerca de mí</button></li>
+                <li><button type="button" class="btn-nav" data-link="#habilidades">Habilidades</button></li>
+                <li><button type="button" class="btn-nav" data-link="#proyectos">Proyectos</button></li>
+                <li><button type="button" class="btn-nav" data-link="#contacto">Contacto</button></li>
             </ul>
         </nav>
     </header>
-    <section id="acerca-de-mi" aria-labelledby="titulo-presentacion">
-        <div class="info">
-            <img src="./img/foto-presentacion.jpg" alt="Foto de perfil de Javier Lamagna">
-            <h1 id="titulo-presentacion">Hola soy Javier Lamagna</h1>
-            <span>Desarrollador Web/Tester QA Manual</span>
-        </div>
-        <p>Soy desarrollador web con 29 años, orientado a construir productos digitales funcionales, escalables y
-            centrados en el usuario. Me especializo en desarrollo front-end y cuento con conocimientos en QA Manual, lo
-            que me permite participar activamente en todo el ciclo de vida del producto, desde la implementación hasta
-            la validación final.
 
-            Trabajo con una mentalidad startup: foco en iteración rápida, mejora continua y toma de decisiones basada en
-            impacto. No solo escribo código, sino que analizo el producto, detecto fricciones y propongo mejoras
-            orientadas a performance, usabilidad y calidad.
+    <main id="app" role="main"></main>
 
-            Mi background en testing me aporta una visión crítica sobre la estabilidad del producto, la prevención de
-            bugs y la optimización de procesos, generando entregables más confiables y listos para escalar.
-
-            Busco sumarme a equipos dinámicos donde la tecnología sea un motor de crecimiento, aportando valor desde lo
-            técnico, la calidad y el pensamiento estratégico.</p>
-    </section>
-
-    <main>
-        <section id="habilidades">
-            <h2>Habilidades</h2>
-            <div class="skins-habilidades">
-                <div class="desarrollo">
-                    <h3>Desarrollo Web</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                        <li>GitHub</li>
-                        <li>Bootstrap</li>
-                    </ul>
-                </div>
-                <div class="testing">
-                    <h3>QA Manual</h3>
-                    <ul>
-                        <li>Test Planning</li>
-                        <li>Test Execution</li>
-                        <li>Test Reporting</li>
-                        <li>Test Documentation</li>
-                        <li>Test Automation</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="proyectos">
-            <h2>Proyectos</h2>
-            <ul>
-                <li>Proyecto 1</li>
-                <li>Proyecto 2</li>
-                <li>Proyecto 3</li>
-            </ul>
-        </section>
-        <section id="contacto">
-            <h2>Contactos</h2>
-            <ul>
-                <li>javierlamagna@gmail.com</li>
-                <li>2634347076</li>
-                <li>LinkedIn<a href="https://www.linkedin.com/in/javierlamagna/" target="_blank"
-                        rel="noopener noreferrer"></a></li>
-            </ul>
-        </section>
-    </main>
     <footer>
         <p>&copy; <span id="year"></span> Javier Lamagna. Desarrollador Web &amp; QA Manual.</p>
     </footer>
-    <script>
-        document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
-    <script src="js/main.js"></script>
-    <script src="js/skills.js"></script>
+
+    <script type="module" src="js/main.js"></script>
 </body>
 
 </html>
